@@ -29,11 +29,12 @@ func main() {
 	fmt.Println("Slice:", numbers)
 	fmt.Println("Length:", len(numbers))
 	fmt.Println("Capacity:", cap(numbers))
-
+	fmt.Println("Element:", numbers[7])
 
 	stock := make([]int, 0)
 	fmt.Println("Slice:", stock)
 	fmt.Println("Length:", len(stock))
 	fmt.Println("Capacity:", cap(stock))
+	// fmt.Println("Element:", stock[7]) // will give an error index out of range
 	
 }

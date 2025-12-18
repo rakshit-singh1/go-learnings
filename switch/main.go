@@ -3,15 +3,17 @@ package main
 import "fmt"
 
 func main() {
-	day := 2
+	day := 4
 
 	switch day {
 	case 1, 30, 22, 19:
-		fmt.Println("Good Day we are very fine")
+		fmt.Println("Monday")
 	case 2:
-		fmt.Println("Bad Day")
+		fmt.Println("Tuesday")
 	case 3:
 		fmt.Println("Wednesday")
+	case 04:
+		fmt.Println("Thrusday")
 	default:
 		fmt.Println("Unknown Day")
 	}

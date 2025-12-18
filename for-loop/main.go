@@ -24,8 +24,8 @@ func main() {
 	// }
 
 	data := "Hello, world!"
-	for index, value := range data {
-		fmt.Printf("Index of Data is %d, and value is %c\n", index, value)
+	for index, char := range data {
+		fmt.Printf("Index of Data is %d, and value is %c\n", index, char)
 	}
 
 }

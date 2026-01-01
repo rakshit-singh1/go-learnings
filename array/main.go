@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+
 	fmt.Println("we are learning Array in Golang")
 
 	// var name[5]string

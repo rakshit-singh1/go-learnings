@@ -6,12 +6,19 @@ import (
 )
 
 func main() {
-	data := "apple.orange.banana.Rakshit"
+	datam := "a,b,c, d"
+	var elements = strings.Split(datam, ",")
+	fmt.Println(strings.TrimSpace(elements[len(elements)-1]))
+
+	count1 := strings.Count(datam, ",")
+	fmt.Println("count1: ", count1)
+
+	data := "apple.orange.banana.prince"
 	parts := strings.Split(data, ".")
-	fmt.Println(parts)
+	fmt.Println(parts[0])
 
 	str := "one two three four two two five"
-	count := strings.Count(str, "two")
+	count := strings.Count(str, "tw")
 	fmt.Println("count: ", count)
 
 	str = "                       Hello,              Go!   "

@@ -9,7 +9,7 @@ func main() {
 
 	studentGrades["Rakshit"] = 100
 	studentGrades["Alice"] = 90
-	studentGrades["Bob"] = 85
+	studentGrades["Bob"] = 75
 	studentGrades["Charlie"] = 95
 
 	fmt.Println("Marks of Bob : ", studentGrades["Bob"])
@@ -35,13 +35,13 @@ func main() {
 		fmt.Printf("Key is %s and marks is %d\n", index, value)
 	}
 
-	person := map[string]int{
-		"Alice":   90,
-		"Bob":     85,
-		"Charlie": 95,
-	}
+	// person := map[string]int{
+	// 	"Alice":   90,
+	// 	"Bob":     85,
+	// 	"Charlie": 95,
+	// }
 
-	for index, value := range person {
-		fmt.Printf("---------Key is %s and marks is %d\n", index, value)
-	}
+	// for index, value := range person {
+	// 	fmt.Printf("---------Key is %s and marks is %d\n", index, value)
+	// }
 }

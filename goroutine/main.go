@@ -7,7 +7,7 @@ import (
 
 func sayHello() {
 	fmt.Println("Hello, world!")
-	// time.Sleep(2000 * time.Millisecond) // Simulating some work
+	time.Sleep(2000 * time.Millisecond) // Simulating some work
 	fmt.Println("sayHello function ended successfully")
 }
 
@@ -20,7 +20,9 @@ func sayHi() {
 func main() {
 	fmt.Println("learning goroutines")
 
-	go sayHello()
+	sayHello()
+	// go sayHello()
+	// sayHi()
 	go sayHi()
 
 	// Wait for a moment to allow the goroutine to finish
